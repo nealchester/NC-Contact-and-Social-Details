@@ -1,0 +1,83 @@
+.ncsocial { 
+  --icon-width:2em;
+  --icon-gap:0.75rem;
+  --icon-radius:50%;
+  --icon-scale:scale(1.25);
+
+  --icon-color: currentColor;
+  --icon-color-hover: currentColor;
+
+  --icon-bg-color: none;
+  --icon-bg-color-hover: none;
+
+  --icon-border:solid 0.08em;
+  --icon-border-hover:solid 0.08em;
+}
+
+.ncsocial { 
+  display:inline-flex;
+  /*
+  display: grid; 
+  grid-template-columns:repeat(auto-fill, minmax(var(--icon-width), 1fr));
+  grid-gap:var(--icon-gap);
+  */
+}
+
+.ncsocial-center {
+  justify-content: center;
+  display: flex;
+}
+
+.ncsocial_link svg { 
+  width: calc(var(--icon-width) - 0.75em); 
+  height:auto; 
+}
+
+.ncsocial_link { 
+  width:var(--icon-width); 
+  height:var(--icon-width); 
+  display:flex;
+  border-radius:var(--icon-radius);
+  justify-content:center;
+  align-items:center;
+  transition: .3s;
+  align-self:flex-start;
+  background-color:var(--icon-bg-color);
+  border:var(--icon-border);
+  color:var(--icon-color);
+  position:relative;
+  margin-right:var(--icon-gap);
+}
+
+.ncsocial_link:last-of-type { 
+  margin-right:0; 
+}
+
+.ncsocial_link path { 
+  fill: var(--icon-color); 
+}
+
+.ncsocial_link:hover { 
+  transform:var(--icon-scale); 
+  background-color:var(--icon-bg-color-hover);
+  border:var(--icon-border-hover);
+}
+
+.ncsocial_link:hover path {
+  fill: var(--icon-color-hover);
+}
+
+/*
+.ncsocial_facebook { background-color: #3b579d;}
+.ncsocial_twitter { background-color: #1da1f2;}
+.ncsocial_linkedin { background-color: #0077b5;}
+.ncsocial_pinterest { background-color: #bd081c;}
+.ncsocial_youtube { background-color: #ff0000;}
+.ncsocial_googleplus { background-color: #db4437;}
+.ncsocial_instagram { background-color: #fb3958;}
+.ncsocial_personal { background-color: #9b6954;}
+.ncsocial_email { background-color: #999;}
+.ncsocial_vimeo { background-color: #1ab7ea;}
+.ncsocial_tumblr { background-color: #36465d; }
+
+*/
