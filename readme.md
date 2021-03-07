@@ -1,6 +1,6 @@
 # Documentation
 
-**NC Contact Social Details** is a WordPress plugin that displays your main contact details and social media links anywhere on your site using a shortcodes.
+**NC Contact Social Details** is a WordPress plugin that displays your main contact details and social media links anywhere on your site using shortcodes.
 
 **Problem:** sometimes you need to place your contact information in multiple places on your WordPress site. What happens if you have to change that information? Now, you have to remember, find, and edit every page, block, and widget, you placed that information.
 
