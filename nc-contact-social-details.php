@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: NC Contact and Social Details
-* Plugin URI: https://www.nealchester.com/downloads/nc-contact-and-social-details/
+* Plugin URI: https://github.com/nealchester/NC-Contact-and-Social-Details/
 * Description: Creates Customizer fields to add your phone number and social media links to your site. After which you can display them sitewide using shortcodes within posts, widgets, and your active theme. Use [nc-phone-link] to display your phone number link. Use [nc-main-phone] to display your number in plain text. Use [nc-main-email] to display the main email address. Use [nc-email-link] to display the main email address as a hyperlink. Use [nc-main-address] to display the main company address. Use [nc-social-links] to display all your social media links. You can also display shortcodes in your theme files and extend the social media links Learn more through the documentation.
 * Version: 1.5
 * Author: Neal Chester
