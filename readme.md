@@ -6,12 +6,10 @@
 
 **Solution:** With this plugin, you can update that information from one place and it updates everywhere you used those shortcodes.
 
-***
-
-This plugin creates Customizer panel fields to add your:
+This plugin creates a new Customizer panel with fields to add the following details:
 
 * main phone number
-* main address
+* main office/store address
 * main email address
 * various social media links
 
