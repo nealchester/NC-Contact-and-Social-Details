@@ -119,3 +119,7 @@ You can customize the social links via CSS custom properties. Just paste this co
       --icon-border: solid .08em;
       --icon-border-hover: solid .08em;
     }
+
+***
+
+For more information, contact neal@nealchester.com
